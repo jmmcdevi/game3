@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     void Reset(){
         rb.velocity = Vector2.zero;
-        transform.position = new Vector2(-6.19f, -0.95f);
+        transform.position = new Vector3(-6.19f, -0.95f, -1f);
     }
 
     public void OnCollisionEnter2D(Collision2D col){
